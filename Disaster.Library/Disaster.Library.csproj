@@ -41,7 +41,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Disasters\Geological\Earthquake.cs" />
+    <Compile Include="Disasters\Geological\Avalanche.cs" />
+    <Compile Include="Disasters\Geological\Sinkhole.cs" />
+    <Compile Include="Disasters\Hydrological\Flood.cs" />
+    <Compile Include="Disasters\Hydrological\Tsunami.cs" />
+    <Compile Include="Disasters\Meteorological\Blizzard.cs" />
+    <Compile Include="Disasters\Meteorological\Hurricane.cs" />
+    <Compile Include="Disasters\Meteorological\Tornado.cs" />
+    <Compile Include="Interfaces\ICategory.cs" />
+    <Compile Include="Interfaces\IDisaster.cs" />
+    <Compile Include="Interfaces\IStorm.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
