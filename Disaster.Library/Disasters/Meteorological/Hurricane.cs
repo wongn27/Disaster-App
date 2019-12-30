@@ -3,7 +3,7 @@ using System;
 
 namespace Disaster.Library.Disasters.Meteorological
 {
-    public class Hurricane : IStorm
+    public class Hurricane : IStorm, IPhoto, ICost
     {
         public string WindSpeed { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
         public string Name { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
@@ -11,5 +11,7 @@ namespace Disaster.Library.Disasters.Meteorological
         public long NumberOfCasualties { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
         public DateTime Date { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
         public float AmountOfPreciptitation { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public decimal Cost { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public string Caption { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
     }
 }
