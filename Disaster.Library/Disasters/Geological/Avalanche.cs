@@ -8,23 +8,23 @@ namespace Disaster.Library.Disasters.Geological
     public class Avalanche : IDisaster, IPhoto, ICost
     {
         [XmlElement(nameof(Name))]
-        public string Name { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        
-        [XmlElement(nameof(Location))]
-        public string Location { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public string Name { get; set; }
 
-        public string PhotoLocation { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        [XmlElement(nameof(Location))]
+        public string Location { get; set; }
+
+        public string PhotoLocation { get; set; }
 
         [XmlElement(nameof(NumberOfCasualties))]
-        public long NumberOfCasualties { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public long NumberOfCasualties { get; set; }
 
         [XmlElement(nameof(Date))]
-        public DateTime Date { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public DateTime Date { get; set; }
 
-        public string Caption { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public string Caption { get; set; }
 
         [XmlElement(nameof(Cost))]
-        public decimal Cost { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public decimal Cost { get; set; }
 
     }
 }

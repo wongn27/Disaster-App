@@ -4,7 +4,7 @@
     {
         public void CallingMethod()
         {
-            ReadDisasterDataUtility.ReadDisasterData();
+            
         }
     }
 }
