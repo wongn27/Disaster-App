@@ -2,7 +2,7 @@
 {
     public interface IPhoto
     {
-        string Location { get; set; }
+        string PhotoLocation { get; set; }
         string Caption { get; set; }
     }
 }
