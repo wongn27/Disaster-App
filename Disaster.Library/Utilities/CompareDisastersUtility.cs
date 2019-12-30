@@ -1,6 +1,10 @@
 ﻿namespace Disaster.Library.Utilities
 {
-    class CompareDisastersUtility
+    public class CompareDisastersUtility
     {
+        public void CallingMethod()
+        {
+            ReadDisasterDataUtility.ReadDisasterData();
+        }
     }
 }
